@@ -8,6 +8,9 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import part2.soundsystem.configurations.CDPlayerConfig;
+import part2.soundsystem.interfaces.CompactDisk;
+import part2.soundsystem.interfaces.MediaPlayer;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -49,5 +52,4 @@ public class CDPlayerTest {
         This will find the CompactDiskInterface automatically and since it hast just one implementation, it will know that it is actually a SgtPeppers cd.
     */
 
-    //TODO Continue study page 43(68 pdf)
 }

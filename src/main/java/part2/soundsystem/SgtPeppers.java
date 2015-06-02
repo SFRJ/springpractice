@@ -1,6 +1,7 @@
 package part2.soundsystem;
 
 import org.springframework.stereotype.Component;
+import part2.soundsystem.interfaces.CompactDisk;
 
 /*
 If we want to add an identifier to the bean you can add it to the @Component annotation.

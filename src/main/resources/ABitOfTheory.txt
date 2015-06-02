@@ -34,3 +34,10 @@ Spring Bean wiring mechanisms
 -Configuration in xml
 -Configuration in java
 -Implicit bean discovery an automatic wiring
+
+It is matter of taste which wiring mechanism you choose. The java one is refactor friendly and also type-safe.
+The automatic scanning is an easy way of doing it using annotations like @Component and @Autowired, but sometimes if we want to wire thirdparty libraries then we cannot
+use auto scannong(we cannot annotate code that we don't own), then it is desirable to pick either Java or Xml.
+Important to mention, that all this types of wiring can be conbined, we can wire some beans in some way, and anothers in another way.
+
+
