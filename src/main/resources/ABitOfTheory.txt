@@ -41,3 +41,14 @@ use auto scannong(we cannot annotate code that we don't own), then it is desirab
 Important to mention, that all this types of wiring can be conbined, we can wire some beans in some way, and anothers in another way.
 
 
+Types of Spring Bean Scopes
+----------------------------
+	-Singleton
+	-Prototype
+	-Session
+	-Request
+
+Usage example:
+
+@Bean
+@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
